@@ -1,0 +1,28 @@
+:root {
+  --white: #ffffff;
+  --black: #282828;
+  --semi-black: #434343;
+  --red: #f94c4c;
+  --extra-red: #bb0000;
+  --grey: #959595;
+  --hover-grey: #747474;
+  --online-status: #55e655;
+  --add-button: #55e655;
+  --add-button-hover: #2bd62b;
+  --shadow: #666666;
+
+  --main-transition-timing: 0.3s;
+  --pages-paddings: 20px 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}

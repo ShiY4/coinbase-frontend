@@ -1,0 +1,45 @@
+{
+  "root": true,
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 15,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "prettier"],
+  "rules": {
+    "jsx-quotes": ["warn", "prefer-single"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "no-unused-vars": "off",
+    "react/jsx-uses-vars": "error",
+
+    "linebreak-style": ["error", "windows"],
+
+    "prettier/prettier": "warn",
+
+    "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off"
+  },
+  "ignorePatterns": ["node_modules/", "dist/", "out/", "build/", ".eslintrc.json"]
+}
