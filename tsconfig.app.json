@@ -34,7 +34,8 @@
       "hooks/*": ["src/hooks/*"],
       "pages/*": ["src/pages/*"],
       "api/*": ["src/api/*"]
-    }
+    },
+    "plugins": [{ "name": "typescript-plugin-css-modules", "options": { "camelCase": true } }]
   },
   "include": ["src", "vite-env.d.ts"]
 }

@@ -1,3 +1,5 @@
+import styles from './loginPage.module.css';
+
 export function LoginPage() {
-  return <div className='asdasd'>sdfasdfasd</div>;
+  return <div className={styles.wrapper}>asdas</div>;
 }
