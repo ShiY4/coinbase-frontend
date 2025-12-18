@@ -32,7 +32,7 @@
 
     "linebreak-style": ["error", "windows"],
 
-    "prettier/prettier": "warn",
+    "prettier/prettier": "error",
 
     "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
     "@typescript-eslint/explicit-module-boundary-types": "off",

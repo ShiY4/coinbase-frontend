@@ -1,9 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { useOutlet } from 'react-router-dom';
 
 export function RootLayout() {
-  return (
-    <>
-      <Outlet />
-    </>
-  );
+  const outlet = useOutlet();
+  return <>{outlet}</>;
 }

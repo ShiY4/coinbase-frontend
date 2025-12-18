@@ -7,11 +7,12 @@ export const router = createHashRouter([
     path: '/',
     element: <RootLayout />,
     children: [
-      // { index: true, 
-      //   element: <LoginPage /> 
-      // },
-      // { element: <PrivateRoute />, 
-      //   children: [] 
+      {
+        index: true,
+        element: <LoginPage />,
+      },
+      // { element: <PrivateRoute />,
+      //   children: []
       // },
     ],
   },
