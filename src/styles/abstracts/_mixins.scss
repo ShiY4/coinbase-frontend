@@ -1,3 +1,5 @@
+@use '/src/styles/abstracts/functions' as *;
+
 @mixin up($size) {
   @media (min-width: map-get($breakpoints, $size)) {
     @content;
@@ -10,10 +12,20 @@
   }
 }
 
+@mixin minmaxH($min, $max) {
+  min-height: rem($min);
+  max-height: rem($max);
+}
+
+@mixin minmaxW($min, $max) {
+  min-width: rem($min);
+  max-width: rem($max);
+}
+
 @mixin flex-center {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 
