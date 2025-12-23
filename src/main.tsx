@@ -3,8 +3,9 @@ import { RouterProvider } from 'react-router-dom';
 import { router } from './routing';
 import { Provider } from 'react-redux';
 
-import './main.css';
-import { store } from './store/store';
+import { store } from '@/store/store';
+
+import '@/styles/main.scss';
 
 createRoot(document.getElementById('root')!).render(
   <>
