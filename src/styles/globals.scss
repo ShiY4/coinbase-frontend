@@ -1,3 +1,8 @@
 @use './base/fonts.scss';
 @use './base/normalize.scss';
 @use './base/reset.scss';
+@use './abstracts/variables.scss' as *;
+
+html {
+  font-size: 16px;
+}
