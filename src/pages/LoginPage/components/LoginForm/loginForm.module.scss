@@ -1,0 +1,12 @@
+@use '/src/styles/abstracts/mixins' as *;
+@use '/src/styles/abstracts/functions' as *;
+@use '/src/styles/abstracts/variables' as *;
+
+.loginFormContainer {
+  flex-direction: column;
+  gap: rem(25px);
+  background-color: $color-accent;
+  border-radius: rem(20px);
+  padding: rem(15px);
+  @include flex-center;
+}

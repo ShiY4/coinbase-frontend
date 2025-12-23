@@ -1,0 +1,27 @@
+@use '/src/styles/abstracts/mixins' as *;
+@use '/src/styles/abstracts/variables' as *;
+@use '/src/styles/abstracts/functions' as *;
+
+.inputContainer {
+  flex-direction: column;
+  width: fit-content;
+  text-align: left;
+  row-gap: rem(5px);
+  @include flex-center;
+
+  label {
+    width: 100%;
+    text-align: left;
+  }
+
+  input {
+    border: $input-border;
+    border-radius: rem(4px);
+    height: rem(30px);
+    padding: rem(10px);
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

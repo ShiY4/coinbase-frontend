@@ -1,3 +1,7 @@
-.loginPageWrapper{
+@use '/src/styles/abstracts/mixins' as *;
+
+.loginPageWrapper {
   width: 100%;
+  @include flex-center;
+  padding-top: 500px;
 }
