@@ -1,13 +1,13 @@
 $input-border: 1px solid #686868; 
 
-// Primary colors
-$color-primary: #148cd4;        // Основной синий — кнопки, активные элементы
-$color-primary-light: #81bff4;  // Светлый синий — фоны, hover, подсветка
-$color-primary-dark: #043474;   // Темный синий — заголовки, основной текст
+$Base:	#71a0ff;
+$Interactive:	#5d6aff;
+$Hover:	#7c87ff;
+$Disabled:	#B6B9D6;
 
-// Secondary / Neutral
-$color-secondary: #5c749c;      // Второстепенный текст, подсказки
-$color-background: #acc4d4;     // Фоновые панели, карточки, разделители
-
-// Accent
-$color-accent: #344c5c;         // Акценты, иконки, hover на темных блоках
+$Accent:	#F2B6A0;
+$Error:	#E38B8B;
+$Success:	#8BC6A8;
+$Bg: #FAFAFA;
+$Text: #FAFAFA;
+$Text-sec: #4d4d4d;

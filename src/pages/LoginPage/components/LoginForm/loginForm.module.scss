@@ -5,8 +5,26 @@
 .loginFormContainer {
   flex-direction: column;
   gap: rem(25px);
-  background-color: $color-accent;
+  background-color: $Bg;
+  border: none;
   border-radius: rem(20px);
   padding: rem(15px);
   @include flex-center;
+
+  button{
+    background-color: $Interactive;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: $Text;
+    transition: 0.3s;
+    &:hover{
+      background-color: $Hover;
+    }
+    &:disabled{
+      background-color: $Disabled;
+      cursor: default;
+    }
+  }
 }
+
