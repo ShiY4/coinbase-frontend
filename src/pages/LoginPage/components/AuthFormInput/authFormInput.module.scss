@@ -7,6 +7,7 @@
   width: fit-content;
   text-align: left;
   row-gap: rem(5px);
+  font-weight: 100;
   @include flex-center;
 
   label {
@@ -16,7 +17,7 @@
   }
 
   input {
-    border: $input-border;
+    border: $inputBorder;
     border-radius: rem(4px);
     height: rem(30px);
     padding: rem(10px);
