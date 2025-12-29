@@ -13,11 +13,11 @@ const initialState: IUser = {
 };
 
 const UserSlice = createSlice({
-  name: 'userS',
+  name: 'userReducer',
   initialState,
   reducers: {},
   selectors: {},
 });
 
 // export const {} = UserSlice.actions;
-export const user = UserSlice.reducer;
+export const userReducer = UserSlice.reducer;
